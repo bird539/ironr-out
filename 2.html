@@ -1,14 +1,33 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html>
+
 <head>
-  <title>두번째여just(v.<)</title>
-  <mata charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> <!-- For intranet testing only, remove in production. -->
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <title>Slide Show</title>
+  <style>
+    #slideShowImages { /* The following CSS rules are optional. */
+      border: 1px gray solid;
+      background-color: lightgray;
+    }
+
+    #slideShowImages img { /* The following CSS rules are optional. */
+      border: 0.8em black solid;
+      padding: 3px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1><a href="1.html">헬로월드v.<</a></h1>
-  <ol>
-    <li><a href="2.html">목차</a></li>
-    <li><a href="3.html">디자인</a></li>
-    <li><a href="index.html">ㅎㅎ</a></li>
-  <p>어쩌구저쩌구</p>
+  <div id="slideShowImages">
+    <img src="poster.jpg" alt="Slide 1" />
+    <img src="poster.jpg" alt="Slide 2" />
+    <img src="poster.jpg" alt="Slide 3" />
+    <img src="poster.jpg" alt="Slide 4" />
+  </div>
+  <button id="slideShowButton"></button> <!-- Optional button element. -->
+  <script src="slideShow.js"></script>
 </body>
+
+</html>
