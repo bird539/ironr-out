@@ -1,0 +1,50 @@
+<style>
+body{margin: 0px;}
+a { color:black;
+    text-decoration: none;   }
+    #active{
+      padding-left: 0px
+      color: blue;
+    }
+.saw {
+  color:gray;
+}
+
+
+
+
+h1 {
+
+  border-bottom: 1px solid black;
+  padding: 30px;
+  margin: 0px;
+
+  text-decoration: none;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+    }
+ol{border-right: 1px solid pink;
+   width: 50px;
+   margin: 0px;
+   padding:20px
+   }
+#grid ol {
+padding-left: 30px;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 130px 1fr}
+
+@media(max-width:800px){
+#grid{
+display: block;
+}
+ol { border-right: none;}
+h1 {
+border-bottom: none;}
+
+
+}
+</style>
